@@ -47,5 +47,5 @@ foreach ($files as $file) {
   $newFilePath = $folderPath . '/' . $transliteratedFileName;
   // Переименовываем файл
   rename($oldFilePath, $newFilePath);
-  echo "Файл $file успешно переимнован в $transliteratedFileName <br>";
+  echo "Файл $file успешно переименован в $transliteratedFileName <br>";
 }
