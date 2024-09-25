@@ -6,7 +6,7 @@
 $dir = "C:\Users\gavri\Downloads";
 
 // Функция для транслитерации строки
-function transliterate($dir) {
+function transliterateFilesInDir($dir) {
   $tr = array(
     "А" => "A", "Б" => "B", "В" => "V", "Г" => "G", "Д" => "D", "Е" => "E", "Ё" => "E",
         "Ж" => "Zh", "З" => "Z", "И" => "I", "Й" => "Y", "К" => "K", "Л" => "L", "М" => "M",
@@ -46,7 +46,7 @@ foreach ($files as $file) {
 echo "Все файлы переименованы.";
 }
 
-transliterate($dir);
+transliterateFilesInDir($dir);
 
 
 
